@@ -140,6 +140,11 @@ def team_colors(team)
   end
 end
 
+def team_colors2(team)
+  game_hash.collect do |key, value|
+    
+end
+
 def team_names
   teamArr = []
   teamArr.push(game_hash[:home][:team_name])
